@@ -25,4 +25,4 @@ jobs:
 
       - name: Sync files with rsync
         run: |
-          rsync -avz --exclude '.git' . ubuntu@13.200.83.50:/var/www/html/wordpress
+          rsync -avz --exclude '.git' --exclude '.github' . ubuntu@13.200.83.50:/var/www/html/wordpress
