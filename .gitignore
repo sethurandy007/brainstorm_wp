@@ -1,0 +1,44 @@
+# Core WordPress files (optional, but recommended to avoid pushing core files)
+wp-admin/
+wp-includes/
+
+# Configuration Files
+wp-config.php
+
+# Sensitive or Generated Files
+.htaccess
+robots.txt
+sitemap.xml
+sitemap.xml.gz
+
+# WordPress Content (optional)
+# If you have themes or plugins in version control, exclude this section
+wp-content/plugins/
+wp-content/themes/
+wp-content/uploads/
+
+# Database Backup Files
+*.sql
+*.sql.gz
+*.db
+
+# OS or Editor-specific files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.idea/
+*.vscode/
+
+# Composer and Node Modules (if used)
+vendor/
+node_modules/
+
+# Cache and Backup Files
+wp-content/cache/
+wp-content/backup/
+wp-content/backups/
+
+# GitHub Actions Secrets
+.env
+
